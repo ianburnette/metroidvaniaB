@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 4145d1cba50e077488aee8f35f979ec2
-timeCreated: 1425427431
+timeCreated: 1426192524
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -35,6 +35,9 @@ TextureImporter:
     21300056: char_sprite_sheet_28
     21300058: char_sprite_sheet_29
     21300060: char_sprite_sheet_17
+    21300062: char_sprite_sheet_18
+    21300064: char_sprite_sheet_30
+    21300066: char_sprite_sheet_31
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -385,6 +388,36 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_sprite_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_sprite_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: char_sprite_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
         width: 32
         height: 32
       alignment: 0
