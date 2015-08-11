@@ -253,7 +253,7 @@ public class TileWindow : EditorWindow
 	//[CustomEditor(typeof(GameObject))]
 	public class SceneGUITest : Editor
 	{
-		[DrawGizmo(GizmoType.NotSelected)] // ALLOWS "SHOW GRID" UNDER GIZMOS
+		[DrawGizmo(GizmoType.NotInSelectionHierarchy)] // ALLOWS "SHOW GRID" UNDER GIZMOS
 		static void RenderCustomGizmo(Transform objectTransform, GizmoType gizmoType)
 		{
 			// IF WINDOW IS OPEN AND IS GRID TRUE THEN...
